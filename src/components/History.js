@@ -27,7 +27,7 @@ const History = () => {
             <div style={{backgroundColor: 'white', borderRadius: '5px',}}>
               <div style={{display: 'flex', alignItems: 'center', flexDirection: 'row'}}>
                 <div>
-                <p style={{fontSize:'15px', fontWeight: '600', textAlign: 'center', margin: '0px'}}>Expression:</p>
+                <p style={{fontSize:'14px', fontWeight: '600', textAlign: 'center', margin: '0px'}}>Expression:</p>
                 </div>
                 <div>
                 <p style={{ margin: '0px'}}>{calculation.expression}</p>
@@ -35,7 +35,7 @@ const History = () => {
                 </div>
                 <div style={{display: 'flex', alignItems: 'center', flexDirection: 'row'}}>
 
-                  <p style={{fontSize:'15px', fontWeight: '600', textAlign: 'center', margin: '0px'}}>Result:</p>
+                  <p style={{fontSize:'14px', fontWeight: '600', textAlign: 'center', margin: '0px'}}>Result:</p>
               <p style={{ margin: '0px'}}>{calculation.result}</p>
               </div>
             </div>
